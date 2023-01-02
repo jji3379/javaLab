@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://merlindb.ckvu6z6e9nqy.ap-northeast-2.rds.amazonaws.com:3306/merlins?serverTimezone=Asia/Seoul&useLegacyDatetimeCode=false
+    username: merlin
+    password: merlins22!
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+         show_sql: true
+         format_sql: true
